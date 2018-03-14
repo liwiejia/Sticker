@@ -1,0 +1,27 @@
+[ 2018-03-14T15:01:09+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/ADMIN
+ERR: 无法加载控制器:Index
+
+[ 2018-03-14T15:50:55+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/test.html/hl/zh-cn
+ERR: Illegal Action:test.html
+
+[ 2018-03-14T15:51:23+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/test.html/l/zh-cn
+ERR: 非法操作:test.html
+
+[ 2018-03-14T15:51:30+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/test.html/hl/zh-cn
+ERR: 非法操作:test.html
+
+[ 2018-03-14T15:51:41+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/test.html/hl/zh-cn
+ERR: 非法操作:test.html
+
+[ 2018-03-14T15:52:46+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/test.html/hl/zh-cn
+ERR: 非法操作:test.html
+
+[ 2018-03-14T15:52:48+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/test.html/l/zh-cn
+ERR: 非法操作:test.html
+
+[ 2018-03-14T15:52:49+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/test.html/hl/zh-cn
+ERR: 非法操作:test.html
+
+[ 2018-03-14T16:47:37+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
