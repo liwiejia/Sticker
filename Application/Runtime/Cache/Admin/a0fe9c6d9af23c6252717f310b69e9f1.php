@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title><?php echo (L("login_title")); ?></title>
+    <title>忘记密码</title>
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <link href="/Sticker_3.2/Public/Style/Admin/login.css" rel="stylesheet" type="text/css">
     <link href="/Sticker_3.2/Public/Style/Admin/reset.css" rel="stylesheet" type="text/css">
@@ -15,17 +15,23 @@
     <div class="container">
         <div class="logo">
         </div>
-        <form class="form" action="/Sticker_3.2/index.php/Admin/Login/login.html" METHOD="post">
-            <input type="text" name="username" placeholder="<?php echo (L("username")); ?>" id="username" >
-            <input type="password" name="password" placeholder="<?php echo (L("password")); ?>" id="password">
+        <form class="form" action="/Sticker_3.2/index.php/Admin/Forger/forger.html" METHOD="post">
+            <input type="text" name="username" placeholder="账号" id="username" >
+            <input type="text" name="username" placeholder="请输入邮箱" id="username" >
             <div class="verify_box">
                 <input id="verify" type="text" name="verify" class="verify" placeholder="<?php echo (L("verify")); ?>">
                 <img class="verify_img" src="<?php echo U(verify);?>" alt="<?php echo (L("verify")); ?>" onclick="this.src=this.src+'?'+Math.random()">
             </div>
-            <button type="submit" id="login-button" ><?php echo (L("login")); ?></button>
+            <div class="mail_box">
+                <input id="mailVerify" type="text" name="mailVerify" class="mailVerify" placeholder="请输入邮箱验证码">
+                <button type="button" id="" onclick="" >发送验证码</button>
+            </div>
+                <input id="password" type="text" name="password" class="password" placeholder="新密码">
+                <input id="repassword" type="text" name="repassword" class="repassword" placeholder="确认密码">
+            <button type="submit" id="login-button" >提交</button>
         </form>
-        <a href="<?php echo U('Forger/forger');?>" class="text-center"><?php echo (L("forget_password")); ?></a> |
-        <a href="<?php echo U('Register/register');?>" class="text-center"><?php echo (L("register_new")); ?></a>
+        <a href="login.html" class="text-center">登录</a> |
+        <a href="register.html" class="text-center"><?php echo (L("register_new")); ?></a>
     </div>
 </div>
 <script type="text/javascript">

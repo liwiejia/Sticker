@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title><?php echo (L("login_title")); ?></title>
+    <title><?php echo (L("register_new")); ?></title>
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <link href="/Sticker_3.2/Public/Style/Admin/login.css" rel="stylesheet" type="text/css">
     <link href="/Sticker_3.2/Public/Style/Admin/reset.css" rel="stylesheet" type="text/css">
@@ -12,20 +12,23 @@
 <body>
 <div class="wrapper">
     <div id="count-msg"></div>
-    <div class="container">
+    <div class="register">
         <div class="logo">
         </div>
-        <form class="form" action="/Sticker_3.2/index.php/Admin/Login/login.html" METHOD="post">
+        <form class="form" action="/Sticker_3.2/index.php/Admin/Register/user.html" METHOD="post">
+            <input type="text" name="nickname" placeholder="昵称" id="nickname" >
             <input type="text" name="username" placeholder="<?php echo (L("username")); ?>" id="username" >
             <input type="password" name="password" placeholder="<?php echo (L("password")); ?>" id="password">
+            <input type="password" name="repassword" placeholder="确认密码" id="repassword">
+            <input type="text" name="email" placeholder="邮箱" id="email" >
+            <input type="text" name="mobile" placeholder="手机号码" id="mobile" >
             <div class="verify_box">
                 <input id="verify" type="text" name="verify" class="verify" placeholder="<?php echo (L("verify")); ?>">
-                <img class="verify_img" src="<?php echo U(verify);?>" alt="<?php echo (L("verify")); ?>" onclick="this.src=this.src+'?'+Math.random()">
+                <img class="verify_img" src="<?php echo U('Login/verify');?>" alt="<?php echo (L("verify")); ?>" onclick="this.src=this.src+'?'+Math.random()">
             </div>
-            <button type="submit" id="login-button" ><?php echo (L("login")); ?></button>
+            <button type="submit" id="login-button" ><?php echo (L("registered")); ?></button>
         </form>
-        <a href="<?php echo U('Forger/forger');?>" class="text-center"><?php echo (L("forget_password")); ?></a> |
-        <a href="<?php echo U('Register/register');?>" class="text-center"><?php echo (L("register_new")); ?></a>
+        <a href="<?php echo U('Login/login');?>" class="text-center"><?php echo (L("go_login")); ?></a>
     </div>
 </div>
 <script type="text/javascript">
@@ -45,9 +48,9 @@
         CanvasParticle(config);
         var H = $(window).height();
         var W = $(window).width();
-        var Y =(H-500)/1.8;
+        var Y =(H-650)/1.8;
         document.getElementsByClassName('wrapper')[0].setAttribute("style","widht:"+W+"px;height:"+H+"px");
-        document.getElementsByClassName('container')[0].setAttribute("style","margin-top:"+Y+"px");
+        document.getElementsByClassName('register')[0].setAttribute("style","margin-top:"+Y+"px");
 
 
     }

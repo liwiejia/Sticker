@@ -9,7 +9,17 @@ return array(
 
     // 添加数据库配置信息
     'DB_PREFIX' => '', // 数据库表前缀
-    'DB_DSN' => 'mysql://root:root@localhost:3306/sticker',//数据库类型://用户名:密码@数据库地址:数据库端口/数据库名
+    //'DB_DSN' => 'mysql://root:root@localhost:3306/sticker',//数据库类型://用户名:密码@数据库地址:数据库端口/数据库名
+
+    /* 数据库设置 */
+    'DB_TYPE'               =>  'mysql',     // 数据库类型
+    'DB_HOST'               =>  'localhost', // 服务器地址
+    'DB_NAME'               =>  'sticker',  // 数据库名
+    'DB_USER'               =>  'root',      // 用户名
+    'DB_PWD'                =>  'root',          // 密码
+   // 'DB_PREFIX'             =>  'think_',    // 数据库表前缀
+    'DB_CHARSET'            =>  'utf8',      // 数据库编码默认采用utf8
+
     //修改定界符
     'TMPL_L_DELIM'=>'<{',
     'TMPL_R_DELIM'=>'}>',

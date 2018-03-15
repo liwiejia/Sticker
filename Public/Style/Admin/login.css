@@ -16,14 +16,23 @@ body{
     -ms-transform: translateY(85px);
     transform: translateY(85px);
 }
-.container {
-    height: auto;
+.register{
     border-radius:15px;
     opacity:0.8;
     max-width: 530px;
     margin: 0 auto;
     padding: 20px 0;
-    height: 430px;
+    height: 650px;
+    text-align: center;
+    box-shadow: 0 -15px 30px #0d957a;
+}
+.container {
+    border-radius:15px;
+    opacity:0.8;
+    max-width: 530px;
+    margin: 0 auto;
+    padding: 20px 0;
+    height: 450px;
     text-align: center;
     box-shadow: 0 -15px 30px #0d957a;
 }
@@ -79,8 +88,8 @@ form button {
     background-image:url("../../Image/logo.png");
     background-position:center;
     background-size:150%;
-    width:200px;
-    height:140px;
+    width:190px;
+    height:130px;
     margin:0 auto;
 }
 #count-msg{

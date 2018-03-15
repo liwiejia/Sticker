@@ -9,7 +9,12 @@
 namespace Admin\Model;
 use Think\Model;
 
-class UsersModel extends Model {
+
+class RegisterModel extends Model {
+
+    // 重新定义表
+    protected $tableName = 'users';
+
     /**
      * 自动验证
      * self::EXISTS_VALIDATE 或者0 存在字段就验证（默认）
@@ -29,7 +34,7 @@ class UsersModel extends Model {
         array('mobile', '/^1[34578]\d{9}$/', '手机号码格式不正确', 0), // 正则表达式验证手机号码
         array('verify', 'verify_check', '验证码错误', 0, 'function'), // 判断验证码是否正确
         //array('agree', 'is_agree', '请先同意网站安全协议！', 1, 'callback'), // 判断是否勾选网站安全协议
-        array('agree', 'require', '请先同意网站安全协议！', 1), // 判断是否勾选网站安全协议
+        //array('agree', 'require', '请先同意网站安全协议！', 1), // 判断是否勾选网站安全协议
     );
 
     /**
