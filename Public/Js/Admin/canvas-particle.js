@@ -127,7 +127,7 @@ var CanvasParticle = (function(){
 			// point to point
 			for(var j = 0; j < len; j++){
 				if(i != j){
-					dist = Math.round(canvas.points[i].x - canvas.points[j].x) * Math.round(canvas.points[i].x - canvas.points[j].x) + 
+					dist = Math.round(canvas.points[i].x - canvas.points[j].x) * Math.round(canvas.points[i].x - canvas.points[j].x) +
 							Math.round(canvas.points[i].y - canvas.points[j].y) * Math.round(canvas.points[i].y - canvas.points[j].y);
 					// 两点距离小于吸附距离，而且小于最大连接数，则画线
 					if(dist <= canvas.config.dist && canvas.points[i].max_conn <canvas.config.max_conn){
@@ -146,7 +146,7 @@ var CanvasParticle = (function(){
 			// 如果鼠标进入画布
 			// point to mouse
 			if(mouse){
-				dist = Math.round(canvas.points[i].x - mouse.x) * Math.round(canvas.points[i].x - mouse.x) + 
+				dist = Math.round(canvas.points[i].x - mouse.x) * Math.round(canvas.points[i].x - mouse.x) +
 						Math.round(canvas.points[i].y - mouse.y) * Math.round(canvas.points[i].y - mouse.y);
 				// 遇到鼠标吸附距离时加速，直接改变point的x，y值达到加速效果
 				if(dist > canvas.config.dist && dist <= canvas.config.e_dist){

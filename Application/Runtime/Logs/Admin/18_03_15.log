@@ -5,3 +5,84 @@ ERR: 1146:Table 'sticker.register' doesn't exist
 [ 2018-03-15T09:56:38+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Index/index.html
 ERR: 模板不存在:./Application/Admin/View/Index/index.html
 
+[ 2018-03-15T11:01:38+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/verify.html
+ERR: 非法操作:verify
+
+[ 2018-03-15T11:01:49+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/verify.html
+ERR: 非法操作:verify
+
+[ 2018-03-15T11:06:21+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/verify.html
+ERR: 非法操作:verify
+
+[ 2018-03-15T11:06:27+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/verify.html
+ERR: 非法操作:verify
+
+[ 2018-03-15T11:06:38+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/verify.html
+ERR: 非法操作:verify
+
+[ 2018-03-15T11:06:45+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/verify.html
+ERR: 非法操作:verify
+
+[ 2018-03-15T11:08:07+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/verify.html
+ERR: 非法操作:verify
+
+[ 2018-03-15T11:08:12+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/verify.html
+ERR: 非法操作:verify
+
+[ 2018-03-15T11:08:16+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/verify.html
+ERR: 非法操作:verify
+
+[ 2018-03-15T11:15:07+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/verify.html
+ERR: 非法操作:verify
+
+[ 2018-03-15T11:15:10+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/verify.html
+ERR: 非法操作:verify
+
+[ 2018-03-15T11:15:14+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/verify.html
+ERR: 非法操作:verify
+
+[ 2018-03-15T11:15:18+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/verify.html
+ERR: 非法操作:verify
+
+[ 2018-03-15T11:15:22+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/verify.html
+ERR: 非法操作:verify
+
+[ 2018-03-15T11:15:44+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/verify.html
+ERR: 非法操作:verify
+
+[ 2018-03-15T11:16:09+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/verify.html
+ERR: 非法操作:verify
+
+[ 2018-03-15T11:17:07+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/verify.html
+ERR: 非法操作:verify
+
+[ 2018-03-15T11:17:15+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/verify.html
+ERR: 非法操作:verify
+
+[ 2018-03-15T11:18:46+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/verify.html
+ERR: 非法操作:verify
+
+[ 2018-03-15T11:18:52+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/verify.html
+ERR: 非法操作:verify
+
+[ 2018-03-15T11:19:36+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/verify.html
+ERR: 非法操作:verify
+
+[ 2018-03-15T11:23:19+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/verify.html
+ERR: 非法操作:verify
+
+[ 2018-03-15T11:24:43+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/verify.html
+ERR: 非法操作:verify
+
+[ 2018-03-15T11:27:38+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/verify.html
+ERR: 非法操作:verify
+
+[ 2018-03-15T11:28:47+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/verify.html
+ERR: 非法操作:verify
+
+[ 2018-03-15T11:29:26+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/register.html
+ERR: 非法操作:register
+
+[ 2018-03-15T11:29:29+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/login.html
+ERR: 非法操作:login
+

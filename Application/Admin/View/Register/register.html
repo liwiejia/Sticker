@@ -16,12 +16,24 @@
         <div class="logo">
         </div>
         <form class="form" action="__SELF__" METHOD="post">
-            <input type="text" name="nickname" placeholder="昵称" id="nickname" >
-            <input type="text" name="username" placeholder="<{$Think.lang.username}>" id="username" >
-            <input type="password" name="password" placeholder="<{$Think.lang.password}>" id="password">
-            <input type="password" name="repassword" placeholder="确认密码" id="repassword">
-            <input type="text" name="email" placeholder="邮箱" id="email" >
-            <input type="text" name="mobile" placeholder="手机号码" id="mobile" >
+            <div class="input_box">
+                <input type="text" name="nickname" placeholder="昵称" id="nickname" >
+            </div>
+            <div class="input_box">
+                <input type="text" name="username" placeholder="<{$Think.lang.username}>" id="username" >
+            </div>
+            <div class="input_box">
+                <input type="password" name="password" placeholder="<{$Think.lang.password}>" id="password">
+            </div>
+            <div class="input_box">
+                <input type="password" name="repassword" placeholder="确认密码" id="repassword">
+            </div>
+            <div class="input_box">
+                <input type="text" name="email" placeholder="邮箱" id="email" >
+            </div>
+            <div class="input_box">
+                <input type="text" name="mobile" placeholder="手机号码" id="mobile" >
+            </div>
             <div class="verify_box">
                 <input id="verify" type="text" name="verify" class="verify" placeholder="<{$Think.lang.verify}>">
                 <img class="verify_img" src="<{:U('Login/verify')}>" alt="<{$Think.lang.verify}>" onclick="this.src=this.src+'?'+Math.random()">

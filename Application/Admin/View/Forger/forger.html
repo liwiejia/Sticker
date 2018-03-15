@@ -12,26 +12,34 @@
 <body>
 <div class="wrapper">
     <div id="count-msg"></div>
-    <div class="container">
+    <div class="forger">
         <div class="logo">
         </div>
         <form class="form" action="__SELF__" METHOD="post">
-            <input type="text" name="username" placeholder="账号" id="username" >
-            <input type="text" name="username" placeholder="请输入邮箱" id="username" >
+            <div class="input_box">
+                <input type="text" name="username" placeholder="账号" id="username" >
+            </div>
+            <div class="input_box">
+                <input type="text" name="username" placeholder="请输入邮箱" id="username" >
+            </div>
             <div class="verify_box">
-                <input id="verify" type="text" name="verify" class="verify" placeholder="<{$Think.lang.verify}>">
-                <img class="verify_img" src="<{:U(verify)}>" alt="<{$Think.lang.verify}>" onclick="this.src=this.src+'?'+Math.random()">
+                <input id="verify" type="text" name="verify" class="verify" placeholder="验证码">
+                <img class="verify_img" src="<{:U('Login/verify')}>" alt="<{$Think.lang.verify}>" onclick="this.src=this.src+'?'+Math.random()">
             </div>
             <div class="mail_box">
                 <input id="mailVerify" type="text" name="mailVerify" class="mailVerify" placeholder="请输入邮箱验证码">
-                <button type="button" id="" onclick="" >发送验证码</button>
+                <button type="button" id="sendMail" onclick="" >发送验证码</button>
             </div>
-                <input id="password" type="text" name="password" class="password" placeholder="新密码">
-                <input id="repassword" type="text" name="repassword" class="repassword" placeholder="确认密码">
+            <div class="input_box">
+                <input id="password" type="password" name="password" class="password" placeholder="新密码">
+            </div>
+            <div class="input_box">
+                <input id="repassword" type="password" name="repassword" class="repassword" placeholder="确认密码">
+            </div>
             <button type="submit" id="login-button" >提交</button>
         </form>
-        <a href="login.html" class="text-center">登录</a> |
-        <a href="register.html" class="text-center"><{$Think.lang.register_new}></a>
+        <a href="<{:U('Login/login')}>" class="text-center">登录</a> |
+        <a href="<{:U('Register/register')}>" class="text-center">注册新用户</a>
     </div>
 </div>
 <script type="text/javascript">
@@ -51,9 +59,9 @@
         CanvasParticle(config);
         var H = $(window).height();
         var W = $(window).width();
-        var Y =(H-500)/1.8;
+        var Y =(H-650)/1.8;
         document.getElementsByClassName('wrapper')[0].setAttribute("style","widht:"+W+"px;height:"+H+"px");
-        document.getElementsByClassName('container')[0].setAttribute("style","margin-top:"+Y+"px");
+        document.getElementsByClassName('forger')[0].setAttribute("style","margin-top:"+Y+"px");
 
 
     }

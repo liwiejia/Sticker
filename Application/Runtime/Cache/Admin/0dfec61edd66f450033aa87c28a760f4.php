@@ -16,10 +16,14 @@
         <div class="logo">
         </div>
         <form class="form" action="/Sticker_3.2/index.php/Admin/Login/login.html" METHOD="post">
-            <input type="text" name="username" placeholder="<?php echo (L("username")); ?>" id="username" >
-            <input type="password" name="password" placeholder="<?php echo (L("password")); ?>" id="password">
+            <div class="input_box">
+                <input type="text" name="username" placeholder="<?php echo (L("username")); ?>" id="username" foucs-message="请输入您的用户名" lost-message="用户名格式不正确（请输入需包含字母数字中的一种或两种,长度为4-22位）">
+            </div>
+            <div class="input_box">
+                <input type="password" name="password" placeholder="<?php echo (L("password")); ?>" id="password" foucs-message="请输入您的密码" lost-message="密码格式不正确（请输入需包含字母数字以及@*#中的一种,长度为6-22位）">
+            </div>
             <div class="verify_box">
-                <input id="verify" type="text" name="verify" class="verify" placeholder="<?php echo (L("verify")); ?>">
+                <input id="verify" type="text" name="verify" class="verify" placeholder="<?php echo (L("verify")); ?>" foucs-message="请输入验证码" lost-message="验证码格式不正确（长度为4位）">
                 <img class="verify_img" src="<?php echo U(verify);?>" alt="<?php echo (L("verify")); ?>" onclick="this.src=this.src+'?'+Math.random()">
             </div>
             <button type="submit" id="login-button" ><?php echo (L("login")); ?></button>

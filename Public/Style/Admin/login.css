@@ -26,6 +26,16 @@ body{
     text-align: center;
     box-shadow: 0 -15px 30px #0d957a;
 }
+.forger{
+    border-radius:15px;
+    opacity:0.8;
+    max-width: 530px;
+    margin: 0 auto;
+    padding: 20px 0;
+    height: 630px;
+    text-align: center;
+    box-shadow: 0 -15px 30px #0d957a;
+}
 .container {
     border-radius:15px;
     opacity:0.8;
@@ -49,25 +59,30 @@ form {
     position: relative;
     z-index: 2;
 }
-form input {
+.input_box{
+    height: 60px;
+    width: 280px;
+    margin:0 auto;
+}
+.input_box>input {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
     outline: 0;
+    display: block;
     border: 1px solid rgba(255, 255, 255, 0.4);
     background-color: rgba(255, 255, 255, 0.2);
-    width: 280px;
+    width: 100%;
     border-radius: 3px;
     padding: 10px 15px;
-    margin: 0 auto 10px auto;
-    display: block;
+    margin: 0px auto 10px auto;
     font-size: 18px;
     color: white;
     -webkit-transition-duration: 0.25s;
     transition-duration: 0.25s;
     font-weight: 300;
 }
-form button {
+form>button {
     margin: 0 auto 10px auto;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -84,6 +99,21 @@ form button {
     -webkit-transition-duration: 0.25s;
     transition-duration: 0.25s;
 }
+/*#username:hover,#password:hover {
+    margin: 0 auto 10px auto;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+form input:hover {
+    margin: 0 auto 10px auto;
+    background-color: rgba(255, 255, 255, 0.4);
+}*/
+/*form>input:hover {
+    margin: 0 auto 10px auto;
+    background-color: white;
+    width: 330px;
+    color: #53e3a6;
+}*/
 .logo{
     background-image:url("../../Image/logo.png");
     background-position:center;
@@ -115,12 +145,12 @@ form button {
     background:#000;
     line-height:0px;
 }
-.verify_box{
+.verify_box ,.mail_box{
     height: 60px;
     width: 280px;
     margin:0 auto;
 }
-.verify{
+.verify,.mailVerify{
     float: left;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -143,23 +173,27 @@ form button {
     margin: 0 auto 10px auto;
     background-color: #f5f7f9;
 }
-#username:hover,#password:hover {
-    margin: 0 auto 10px auto;
-    background-color: rgba(255, 255, 255, 0.4);
-}
 
-/*form input:hover {
-    margin: 0 auto 10px auto;
-    background-color: rgba(255, 255, 255, 0.4);
-}
-form>input:focus {
-    margin: 0 auto 10px auto;
-    background-color: white;
-    width: 330px;
-    color: #53e3a6;
-}*/
 .verify_img{
    margin-top: 5px;
+
+}
+#sendMail{
+    height: 45px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: 0;
+    background-color: white;
+    border: 0;
+    padding: 10px 15px;
+    color: #53e3a6;
+    border-radius: 3px;
+    width: 120px;
+    cursor: pointer;
+    font-size: 18px;
+    -webkit-transition-duration: 0.25s;
+    transition-duration: 0.25s;
 
 }
 .text-center{

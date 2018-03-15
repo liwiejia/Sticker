@@ -16,12 +16,24 @@
         <div class="logo">
         </div>
         <form class="form" action="/Sticker_3.2/index.php/Admin/Register/register.html" METHOD="post">
-            <input type="text" name="nickname" placeholder="昵称" id="nickname" >
-            <input type="text" name="username" placeholder="<?php echo (L("username")); ?>" id="username" >
-            <input type="password" name="password" placeholder="<?php echo (L("password")); ?>" id="password">
-            <input type="password" name="repassword" placeholder="确认密码" id="repassword">
-            <input type="text" name="email" placeholder="邮箱" id="email" >
-            <input type="text" name="mobile" placeholder="手机号码" id="mobile" >
+            <div class="input_box">
+                <input type="text" name="nickname" placeholder="昵称" id="nickname" >
+            </div>
+            <div class="input_box">
+                <input type="text" name="username" placeholder="<?php echo (L("username")); ?>" id="username" >
+            </div>
+            <div class="input_box">
+                <input type="password" name="password" placeholder="<?php echo (L("password")); ?>" id="password">
+            </div>
+            <div class="input_box">
+                <input type="password" name="repassword" placeholder="确认密码" id="repassword">
+            </div>
+            <div class="input_box">
+                <input type="text" name="email" placeholder="邮箱" id="email" >
+            </div>
+            <div class="input_box">
+                <input type="text" name="mobile" placeholder="手机号码" id="mobile" >
+            </div>
             <div class="verify_box">
                 <input id="verify" type="text" name="verify" class="verify" placeholder="<?php echo (L("verify")); ?>">
                 <img class="verify_img" src="<?php echo U('Login/verify');?>" alt="<?php echo (L("verify")); ?>" onclick="this.src=this.src+'?'+Math.random()">
