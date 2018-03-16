@@ -143,7 +143,7 @@ form input:hover {
     border-radius: 5px;
     opacity: 0.1;
     background:#000;
-    line-height:0px;
+    line-height:50px;
 }
 .verify_box ,.mail_box{
     height: 60px;
