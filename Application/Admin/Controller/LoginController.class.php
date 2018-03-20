@@ -55,6 +55,11 @@ class LoginController extends Controller {
         }
     }
 
+    public  function test(){
+
+        header("Content-type: text/html; charset=utf-8");
+        send_mail('liweijia@qianjiayue.com','BeiJing','AA','你好');
+    }
 
 
     /**

@@ -7,6 +7,18 @@ return array(
 
     'SHOW_PAGE_TRACE' =>true, // 显示页面Trace信息
 
+
+    'THINK_EMAIL' => array(
+        'SMTP_HOST'   => 'smtp.163.com', //SMTP服务器
+        'SMTP_PORT'   => '25', //SMTP服务器端口
+        'SMTP_USER'   => 'sticker_kf@163.com', //SMTP服务器用户名
+        'SMTP_PASS'   => 'AISHI0405', //SMTP服务器密码
+        'FROM_EMAIL'  => 'sticker_kf@163.com', //发件人EMAIL
+        'FROM_NAME'   => 'Sticker', //发件人名称
+        'REPLY_EMAIL' => 'sticker_kf@163.com', //回复EMAIL（留空则为发件人EMAIL）
+        'REPLY_NAME'  => 'Sticker', //回复名称（留空则为发件人名称）
+    ),
+
     // 添加数据库配置信息
     'DB_PREFIX' => '', // 数据库表前缀
     //'DB_DSN' => 'mysql://root:root@localhost:3306/sticker',//数据库类型://用户名:密码@数据库地址:数据库端口/数据库名

@@ -19,4 +19,6 @@ class IndexController extends CommonController {
         $this->assign('SERVER_SOFTWARE', $_SERVER['SERVER_SOFTWARE']);
         $this->display();
     }
+
+
 }
