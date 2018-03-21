@@ -1,0 +1,9 @@
+[ 2018-03-19T15:35:25+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/text.html
+ERR: 非法操作:text
+
+[ 2018-03-19T17:10:47+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/test.html
+ERR: Language string failed to load: invalid_address: 
+
+[ 2018-03-19T19:05:06+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/test1.html
+ERR: 非法操作:test1
+
