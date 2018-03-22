@@ -57,9 +57,7 @@ class LoginController extends Controller {
 
     public  function test(){
 
-        header("Content-type: text/html; charset=utf-8");
-        $img  = make_qrcode('http://www.baidu.com','H','15');
-        echo " <img src = '$img'>";
+
     }
 
 
