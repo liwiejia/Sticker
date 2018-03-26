@@ -1,0 +1,19 @@
+[ 2018-03-22T17:41:47+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/ADMIN
+ERR: 无法加载控制器:Index
+
+[ 2018-03-22T20:11:33+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0065s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-22T20:11:39+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+

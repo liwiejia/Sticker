@@ -17,25 +17,25 @@
         </div>
         <form class="form" action="/Sticker_3.2/index.php/Admin/Register/register.html" METHOD="post">
             <div class="input_box">
-                <input type="text" name="nickname" placeholder="昵称" id="nickname" >
+                <input type="text" name="nickname" placeholder="昵称" id="nickname" foucs-message="请输入您的昵称(长度大于4小于12并且不能包含`~!@#$%^&*()_+<>?:)" lost-message="昵称名格式不正确（长度大于4小于12并且不能包含`~!@#$%^&*()_+<>?:）">
             </div>
             <div class="input_box">
-                <input type="text" name="username" placeholder="<?php echo (L("username")); ?>" id="username" >
+                <input type="text" name="username" placeholder="<?php echo (L("username")); ?>" id="username" foucs-message="请输入您的账号(只能是数字或字母或数字+字母的组合且大于4位小于22位)" lost-message="账号名格式不正确（请输入数字或字母或数字+字母的组合且大于4位小于22位）">
             </div>
             <div class="input_box">
-                <input type="password" name="password" placeholder="<?php echo (L("password")); ?>" id="password">
+                <input type="password" name="password" placeholder="<?php echo (L("password")); ?>" id="password" foucs-message="请输入您的密码(不能包含&<>/ 且大于4位小于22位)" lost-message="密码名格式不正确（请输入包含&<>/ 且大于4位小于22位）">
             </div>
             <div class="input_box">
-                <input type="password" name="repassword" placeholder="确认密码" id="repassword">
+                <input type="password" name="repassword" placeholder="确认密码" id="repassword" placeholder="确认密码" foucs-message="确认新密码" lost-message="两次输入的密码不符">
             </div>
             <div class="input_box">
-                <input type="text" name="email" placeholder="邮箱" id="email" >
+                <input type="text" name="email" placeholder="邮箱" id="email" placeholder="确认密码" foucs-message="请输入您将要绑定的邮箱" lost-message="邮箱格式不正确">
             </div>
             <div class="input_box">
-                <input type="text" name="mobile" placeholder="手机号码" id="mobile" >
+                <input type="text" name="mobile" placeholder="手机号码" id="mobile" foucs-message="请输入您将要绑定的手机号" lost-message="手机号格式不正确">
             </div>
             <div class="verify_box">
-                <input id="verify" type="text" name="verify" class="verify" placeholder="<?php echo (L("verify")); ?>">
+                <input id="verify" type="text" name="verify" class="verify" placeholder="<?php echo (L("verify")); ?>"  foucs-message="请输入验证码" lost-message="验证码格式不正确（长度为4位）">
                 <img class="verify_img" src="<?php echo U('Login/verify');?>" alt="<?php echo (L("verify")); ?>" onclick="this.src=this.src+'?'+Math.random()">
             </div>
             <button type="submit" id="login-button" ><?php echo (L("registered")); ?></button>
@@ -58,9 +58,9 @@
             max_conn : 10
         }
         CanvasParticle(config);
-        var H = $(window).height();
+        var H = $(".register").height()>650 ?( $(".register").height() +150):$(window).height();
         var W = $(window).width();
-        var Y =(H-650)/1.8;
+        var Y =(H-$(".register").height())/1.8;
         document.getElementsByClassName('wrapper')[0].setAttribute("style","widht:"+W+"px;height:"+H+"px");
         document.getElementsByClassName('register')[0].setAttribute("style","margin-top:"+Y+"px");
 

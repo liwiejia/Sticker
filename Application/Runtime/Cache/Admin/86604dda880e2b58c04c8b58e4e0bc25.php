@@ -1,13 +1,13 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>忘记密码</title>
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-    <link href="__PUBLIC__/Style/Admin/login.css" rel="stylesheet" type="text/css">
-    <link href="__PUBLIC__/Style/Admin/reset.css" rel="stylesheet" type="text/css">
-    <script type="text/javascript" src="__PUBLIC__/Js/jquery.min.js"></script>
-    <script type="text/javascript" src="__PUBLIC__/Js/Admin/login.js"></script>
+    <link href="/Sticker_3.2/Public/Style/Admin/login.css" rel="stylesheet" type="text/css">
+    <link href="/Sticker_3.2/Public/Style/Admin/reset.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="/Sticker_3.2/Public/Js/jquery.min.js"></script>
+    <script type="text/javascript" src="/Sticker_3.2/Public/Js/Admin/login.js"></script>
 </head>
 <body>
 <div class="wrapper">
@@ -15,7 +15,7 @@
     <div class="forger">
         <div class="logo">
         </div>
-        <form class="form" action="__SELF__" METHOD="post">
+        <form class="form" action="/Sticker_3.2/index.php/Admin/Forger/Forger.html" METHOD="post">
             <div class="input_box">
                 <input type="text" name="username" placeholder="账号" id="username" foucs-message="请输入您要找回去密码的用户名" lost-message="用户名格式不正确（请输入需包含字母数字中的一种或两种,长度为4-22位）">
             </div>
@@ -24,7 +24,7 @@
             </div>
             <div class="verify_box">
                 <input id="verify" type="text" name="verify" class="verify" placeholder="验证码" foucs-message="请输入验证码" lost-message="验证码格式不正确（长度为4位）">
-                <img class="verify_img" src="<{:U('Login/verify')}>" alt="<{$Think.lang.verify}>" onclick="this.src=this.src+'?'+Math.random()">
+                <img class="verify_img" src="<?php echo U('Login/verify');?>" alt="<?php echo (L("verify")); ?>" onclick="this.src=this.src+'?'+Math.random()">
             </div>
             <div class="mail_box">
                 <input id="mailVerify" type="text" name="mailVerify" class="mailVerify" placeholder="请输入邮箱验证码" foucs-message="请输入您邮箱收到验证码" lost-message="邮箱验证码格式不正确（长度为6位）">
@@ -38,8 +38,8 @@
             </div>
             <button type="submit" id="login-button" >提交</button>
         </form>
-        <a href="<{:U('Login/login')}>" class="text-center">登录</a> |
-        <a href="<{:U('Register/register')}>" class="text-center">注册新用户</a>
+        <a href="<?php echo U('Login/login');?>" class="text-center">登录</a> |
+        <a href="<?php echo U('Register/register');?>" class="text-center">注册新用户</a>
     </div>
 </div>
 <script type="text/javascript">
@@ -73,7 +73,7 @@
         $.post(url, data , function(json){
             if (json.status) {
                 showInfor(json.info);
-               // window.location.href = "__MODULE__/Index/index";
+               // window.location.href = "/Sticker_3.2/index.php/Admin/Index/index";
             }else {
                 showInfor(json.info);
                 $(".verify_img").trigger('click');
@@ -111,7 +111,7 @@
         $.post(url, data , function(json){
             if (json.status) {
                 showInfor(json.info);
-                // window.location.href = "__MODULE__/Index/index";
+                // window.location.href = "/Sticker_3.2/index.php/Admin/Index/index";
             }else {
                 showInfor(json.info);
                 $(".verify_img").trigger('click');
@@ -143,6 +143,6 @@
 
     }
 </script>
-<script type="text/javascript" src="__PUBLIC__/Js/Admin/canvas-particle.js"></script>
+<script type="text/javascript" src="/Sticker_3.2/Public/Js/Admin/canvas-particle.js"></script>
 </body>
 </html>

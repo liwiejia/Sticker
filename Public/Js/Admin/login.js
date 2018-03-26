@@ -9,7 +9,7 @@ var isWarningId = null;
 
 function showInfor(message) {
     $("#count-msg").html(message);
-    $("#count-msg").css("height","50px")
+    $("#count-msg").css({"height":"50px","display":"block"})
 }
 function checkInfor(obj,id,message,value) {
     if (isWarning && id != isWarningId)
@@ -31,11 +31,12 @@ function checkInfor(obj,id,message,value) {
             break;
         case "password":
             if(value.length < 22 && value.length>6){
-                isWarning = true;
-                isWarningId = id;
-            }else{
                 isWarning = false;
                 isWarningId == null;
+            }else{
+                isWarning = true;
+                isWarningId = id;
+
             }
             break;
         case "verify":
@@ -48,8 +49,8 @@ function checkInfor(obj,id,message,value) {
             }
             break;
         case "email":
-            var re = /^[_".0-9a-z-]+@([0-9a-z][0-9a-z-]+".){1,4}[a-z]{2,3}$/i;
-            if(re.test(value)){
+            var re = /^([a-zA-Z0-9]+[_|\_|\.]?)*[a-zA-Z0-9]+@([a-zA-Z0-9]+[_|\_|\.]?)*[a-zA-Z0-9]+\.[a-zA-Z]{2,3}$/;
+            if(!re.test(value)){
                 isWarning = true;
                 isWarningId = id;
             }else{
@@ -67,27 +68,28 @@ function checkInfor(obj,id,message,value) {
             }
             break;
         case "repassword":
-            if(value.length < 22 && value.length>6 && value == $("#password").val()){
-                isWarning = true;
-                isWarningId = id;
-            }else{
+            if(value.length < 22 && value.length > 6 && value == $("#password").val()){
                 isWarning = false;
                 isWarningId == null;
+            }else{
+                isWarning = true;
+                isWarningId = id;
             }
             break;
         case "nickname":
             var re =/[`~!@#$%^&*()_+<>?:"{},.\/;'[\]]/im
-            if(re.test(value) && value.length < 22 && value.length>6){
-                isWarning = true;
-                isWarningId = id;
-            }else{
+            if(value.length < 12 && value.length > 4 && !re.test(value)  ){
                 isWarning = false;
                 isWarningId == null;
+            }else{
+                isWarning = true;
+                isWarningId = id;
+
             }
             break;
         case "mobile":
             var re = /^[1][3,4,5,7,8][0-9]{9}$/;
-            if(re.test(value)){
+            if(!re.test(value)){
                 isWarning = true;
                 isWarningId = id;
             }else{

@@ -1,0 +1,1432 @@
+[ 2018-03-23T10:18:17+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.1295s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T10:18:20+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T10:18:39+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0075s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T10:19:00+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0095s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT `userid`,`username`,`nickname`,`password`,`lastdate`,`lastip` FROM `users` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0245s ]
+
+[ 2018-03-23T10:19:41+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0055s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T10:19:56+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0065s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T10:20:28+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0085s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT `userid`,`username`,`nickname`,`password`,`lastdate`,`lastip` FROM `users` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-23T10:39:47+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T10:39:48+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T10:39:56+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0065s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T10:42:10+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T10:55:01+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0065s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+ERR: Think\Controller:out方法不存在！
+
+[ 2018-03-23T10:55:12+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT `userid`,`username`,`nickname`,`password`,`lastdate`,`lastip` FROM `users` WHERE `username` = null LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-03-23T10:55:29+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0055s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT `userid`,`username`,`nickname`,`password`,`lastdate`,`lastip` FROM `users` WHERE `username` = null LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-23T10:55:35+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0065s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT `userid`,`username`,`nickname`,`password`,`lastdate`,`lastip` FROM `users` WHERE `username` = null LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-03-23T10:55:39+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT `userid`,`username`,`nickname`,`password`,`lastdate`,`lastip` FROM `users` WHERE `username` = null LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-23T10:56:34+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0085s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T10:56:40+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T10:57:08+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0065s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+ERR: Think\Controller:out方法不存在！
+
+[ 2018-03-23T10:57:19+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+ERR: Think\Controller:out方法不存在！
+
+[ 2018-03-23T10:57:26+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0055s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T10:57:48+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T10:58:49+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0065s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T10:58:52+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T10:59:04+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0075s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T10:59:18+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0075s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T10:59:33+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0075s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T10:59:50+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T11:00:48+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0065s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T11:00:59+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T11:01:03+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T11:01:12+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T11:01:23+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0065s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T11:01:29+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0065s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T11:02:15+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0055s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T11:02:34+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T11:03:45+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0065s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T11:05:18+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0065s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T11:05:27+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0055s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T11:05:32+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T11:05:54+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T11:05:54+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0075s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T11:05:56+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T11:06:25+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T11:06:26+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T11:06:28+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0055s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T11:10:54+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0055s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T11:11:10+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0055s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T11:13:21+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0085s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T11:13:43+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0065s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T11:13:44+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0075s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T11:23:25+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T11:23:32+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T11:23:39+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T11:23:57+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0095s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T11:24:02+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0055s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T11:25:04+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0095s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Array to string conversion F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Verify.class.php 第 89 行.
+
+[ 2018-03-23T11:25:10+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0075s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Array to string conversion F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Verify.class.php 第 89 行.
+
+[ 2018-03-23T11:25:16+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0065s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T11:25:38+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0085s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T11:25:55+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0085s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T11:26:07+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T11:26:59+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T11:27:09+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT `userid`,`username`,`nickname`,`password`,`lastdate`,`lastip` FROM `users` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-23T11:27:20+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT `userid`,`username`,`nickname`,`password`,`lastdate`,`lastip` FROM `users` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-23T11:27:30+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0075s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT `userid`,`username`,`nickname`,`password`,`lastdate`,`lastip` FROM `users` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-03-23T11:27:40+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0065s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT `userid`,`username`,`nickname`,`password`,`lastdate`,`lastip` FROM `users` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0015s ]
+
+[ 2018-03-23T11:27:46+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT `userid`,`username`,`nickname`,`password`,`lastdate`,`lastip` FROM `users` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-23T11:38:33+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/
+ERR: 非法操作:index
+
+[ 2018-03-23T13:16:06+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT `userid`,`username`,`nickname`,`password`,`lastdate`,`lastip` FROM `users` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0070s ]
+SQL: UPDATE `users` SET `loginnum`=loginnum+1 WHERE `username` = 'admin' AND `userid` = 13 [ RunTime:0.0130s ]
+SQL: UPDATE `users` SET `username`='admin',`password`='84a4c7141d80cce356f6f820c22121aa',`lastdate`='1521782166',`lastip`='192.168.1.241' WHERE `username` = 'admin' AND `userid` = 13 [ RunTime:0.0000s ]
+
+[ 2018-03-23T13:18:59+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002501s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0055s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T13:19:03+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0055s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T13:19:22+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0075s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT `userid`,`username`,`nickname`,`password`,`lastdate`,`lastip` FROM `users` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-23T13:19:45+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0075s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T13:19:50+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT `userid`,`username`,`nickname`,`password`,`lastdate`,`lastip` FROM `users` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0065s ]
+SQL: UPDATE `users` SET `loginnum`=loginnum+1 WHERE `username` = 'admin' AND `userid` = 13 [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `username`='admin',`password`='84a4c7141d80cce356f6f820c22121aa',`lastdate`='1521782390',`lastip`='192.168.1.241' WHERE `username` = 'admin' AND `userid` = 13 [ RunTime:0.0005s ]
+
+[ 2018-03-23T14:14:54+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Public/forger_mail.html
+ERR: 无法加载控制器:Public
+
+[ 2018-03-23T14:18:25+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Public/forger_mail.html
+ERR: Method Admin\Controller\PublicController::__call() does not exist
+
+[ 2018-03-23T14:18:26+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Public/forger_mail.html
+ERR: Method Admin\Controller\PublicController::__call() does not exist
+
+[ 2018-03-23T14:20:20+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Public/forger.html
+ERR: 非法操作:forger
+
+[ 2018-03-23T14:21:04+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Public/forgera.html
+ERR: 非法操作:forgera
+
+[ 2018-03-23T14:21:18+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Public/forger_a.html
+ERR: 非法操作:forger_a
+
+[ 2018-03-23T14:21:23+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Public/forger_amail.html
+ERR: 非法操作:forger_amail
+
+[ 2018-03-23T14:21:31+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Public/forger_amil.html
+ERR: 非法操作:forger_amil
+
+[ 2018-03-23T14:21:45+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Public/forger_m.html
+ERR: 非法操作:forger_m
+
+[ 2018-03-23T15:31:30+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/send_mail.html
+ERR: 1146:Table 'sticker.send_mail' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `send_mail`
+
+[ 2018-03-23T15:42:41+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/send_mail.html
+ERR: 非法操作:send_mail
+
+[ 2018-03-23T15:42:51+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/send_mail.html
+ERR: 非法操作:send_mail
+
+[ 2018-03-23T15:44:52+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/send_mail.html
+ERR: 非法操作:send_mail
+
+[ 2018-03-23T15:44:57+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/send_mail.html
+ERR: 非法操作:send_mail
+
+[ 2018-03-23T16:16:54+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/send_mail.html
+ERR: 非法操作:send_mail
+
+[ 2018-03-23T16:16:58+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/
+ERR: 非法操作:index
+
+[ 2018-03-23T16:21:15+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/forger.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry 'admin' for key 'username'
+ [ SQL语句 ] : INSERT INTO `users` (`username`,`email`) VALUES ('admin','1076217644@qq.com')
+ERR: 1062:Duplicate entry 'admin' for key 'username'
+ [ SQL语句 ] : INSERT INTO `users` (`username`,`email`) VALUES ('admin','1076217644@qq.com')
+
+[ 2018-03-23T16:30:12+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/forger.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry 'admin' for key 'username'
+ [ SQL语句 ] : INSERT INTO `users` (`username`,`email`) VALUES ('admin','1076217644@qq.com')
+ERR: 1062:Duplicate entry 'admin' for key 'username'
+ [ SQL语句 ] : INSERT INTO `users` (`username`,`email`) VALUES ('admin','1076217644@qq.com')
+
+[ 2018-03-23T16:30:22+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/forger.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry 'admin' for key 'username'
+ [ SQL语句 ] : INSERT INTO `users` (`username`,`email`) VALUES ('admin','1076217644@qq.com')
+ERR: 1062:Duplicate entry 'admin' for key 'username'
+ [ SQL语句 ] : INSERT INTO `users` (`username`,`email`) VALUES ('admin','1076217644@qq.com')
+
+[ 2018-03-23T16:34:19+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/456
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:456
+
+[ 2018-03-23T16:35:01+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/456
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+ERR: 非法操作:456
+
+[ 2018-03-23T16:35:14+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0105s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [8] Undefined variable: login F:\phpstudy\WWW\Sticker_3.2\Application\Admin\Controller\ForgerController.class.php 第 58 行.
+
+[ 2018-03-23T16:35:41+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0075s ]
+
+[ 2018-03-23T16:36:00+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0070s ]
+
+[ 2018-03-23T16:36:46+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2018-03-23T16:37:02+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0065s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2018-03-23T16:37:12+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0085s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2018-03-23T16:37:49+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0065s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2018-03-23T16:39:16+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0055s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2018-03-23T16:39:43+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2018-03-23T16:46:04+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2018-03-23T16:48:37+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/Forger
+ERR: 1062:Duplicate entry '' for key 'username'
+ [ SQL语句 ] : INSERT INTO `users` (`username`,`email`,`password`) VALUES ('','','')
+
+[ 2018-03-23T16:51:10+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2018-03-23T16:51:18+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0075s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2018-03-23T16:51:23+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2018-03-23T16:51:25+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0085s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2018-03-23T16:51:30+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2018-03-23T16:52:30+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0085s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2018-03-23T16:53:20+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0110s ]
+
+[ 2018-03-23T16:53:37+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2018-03-23T16:54:45+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2018-03-23T16:55:08+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/Forger
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0065s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry 'admin' for key 'username'
+ [ SQL语句 ] : INSERT INTO `users` (`username`,`email`) VALUES ('admin','1076217644@qq.com')
+ERR: 1062:Duplicate entry 'admin' for key 'username'
+ [ SQL语句 ] : INSERT INTO `users` (`username`,`email`) VALUES ('admin','1076217644@qq.com')
+
+[ 2018-03-23T16:55:47+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/Forger
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0065s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry 'admin' for key 'username'
+ [ SQL语句 ] : INSERT INTO `users` (`username`,`email`) VALUES ('admin','1076217644@qq.com')
+ERR: 1062:Duplicate entry 'admin' for key 'username'
+ [ SQL语句 ] : INSERT INTO `users` (`username`,`email`) VALUES ('admin','1076217644@qq.com')
+
+[ 2018-03-23T16:55:57+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/Forger
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0055s ]
+
+[ 2018-03-23T16:56:03+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/Forger
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry 'admin' for key 'username'
+ [ SQL语句 ] : INSERT INTO `users` (`username`,`email`) VALUES ('admin','1076217644@qq.com')
+ERR: 1062:Duplicate entry 'admin' for key 'username'
+ [ SQL语句 ] : INSERT INTO `users` (`username`,`email`) VALUES ('admin','1076217644@qq.com')
+
+[ 2018-03-23T16:56:36+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2018-03-23T16:56:44+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0065s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2018-03-23T16:57:02+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/forget
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:forget
+
+[ 2018-03-23T16:57:18+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/forget
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:forget
+
+[ 2018-03-23T16:58:10+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/forget
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:forget
+
+[ 2018-03-23T16:58:49+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2018-03-23T16:59:06+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0065s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2018-03-23T17:01:26+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2018-03-23T17:04:54+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0055s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2018-03-23T17:06:55+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/forger.html
+ERR: 1062:Duplicate entry '' for key 'username'
+ [ SQL语句 ] : INSERT INTO `users` (`username`,`email`,`password`) VALUES ('','','')
+
+[ 2018-03-23T17:09:55+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+
+[ 2018-03-23T17:09:58+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2018-03-23T17:10:31+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T17:10:52+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'sticker.send_mail' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `send_mail`
+ERR: 1146:Table 'sticker.send_mail' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `send_mail`
+
+[ 2018-03-23T17:10:58+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'sticker.send_mail' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `send_mail`
+ERR: 1146:Table 'sticker.send_mail' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `send_mail`
+
+[ 2018-03-23T17:11:01+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-23T17:11:15+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'sticker.send_mail' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `send_mail`
+ERR: 1146:Table 'sticker.send_mail' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `send_mail`
+
+[ 2018-03-23T17:11:34+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 1146:Table 'sticker.send_mail' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `send_mail`
+ERR: 1146:Table 'sticker.send_mail' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `send_mail`
+
+[ 2018-03-23T17:11:51+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+ERR: 1146:Table 'sticker.send_mail' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `send_mail`
+ERR: 1146:Table 'sticker.send_mail' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `send_mail`
+
+[ 2018-03-23T17:12:18+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0055s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T17:12:54+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0075s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T17:13:13+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0055s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T17:13:26+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T17:13:30+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T17:13:36+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T17:13:46+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0055s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T17:14:04+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0055s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T17:14:14+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0055s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] md5() expects at least 1 parameter, 0 given F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1154 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, function 'rand_int(4)' not found or invalid function name F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1154 行.
+NOTIC: [8] Undefined variable: login F:\phpstudy\WWW\Sticker_3.2\Application\Admin\Controller\ForgerController.class.php 第 61 行.
+
+[ 2018-03-23T17:16:08+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0065s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T17:16:15+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, function 'rand_int(4)' not found or invalid function name F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1154 行.
+NOTIC: [8] Undefined variable: login F:\phpstudy\WWW\Sticker_3.2\Application\Admin\Controller\ForgerController.class.php 第 61 行.
+
+[ 2018-03-23T17:17:06+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T17:17:17+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0055s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, function 'rand_int(4)' not found or invalid function name F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1154 行.
+SQL: SELECT `userid`,`username`,`nickname`,`email` FROM `users` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-23T17:17:41+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0065s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T17:17:52+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0055s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T17:17:59+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, function 'rand_int(4)' not found or invalid function name F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1154 行.
+SQL: SELECT `userid`,`username`,`nickname`,`email` FROM `users` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-23T17:18:26+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T17:18:37+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T17:18:46+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, function 'rand_int(4)' not found or invalid function name F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1154 行.
+SQL: SELECT `userid`,`username`,`nickname`,`email` FROM `users` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-03-23T17:19:03+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0065s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T17:19:11+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, function 'rand_int(4)' not found or invalid function name F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1154 行.
+SQL: SELECT `userid`,`username`,`nickname`,`email` FROM `users` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-23T17:20:11+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0055s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T17:20:17+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0055s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, function 'rand_int(4)' not found or invalid function name F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1154 行.
+SQL: SELECT `userid`,`username`,`nickname`,`email` FROM `users` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-23T17:20:27+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, function 'rand_int(4)' not found or invalid function name F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1154 行.
+SQL: SELECT `userid`,`username`,`nickname`,`email` FROM `users` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-03-23T17:20:46+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0065s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T17:20:53+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, function 'rand_int(4)' not found or invalid function name F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1154 行.
+SQL: SELECT `userid`,`username`,`nickname`,`email` FROM `users` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-03-23T17:21:08+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0065s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T17:21:16+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T17:21:23+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, function 'rand_int(4)' not found or invalid function name F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1154 行.
+SQL: SELECT `userid`,`username`,`nickname`,`email` FROM `users` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-03-23T17:21:41+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T17:21:48+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, function 'rand_int(4)' not found or invalid function name F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1154 行.
+SQL: SELECT `userid`,`username`,`nickname`,`email` FROM `users` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-03-23T17:22:29+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0055s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T17:22:47+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, function 'rand_int(4)' not found or invalid function name F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1154 行.
+SQL: SELECT `userid`,`username`,`nickname`,`email` FROM `users` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-23T17:26:29+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0065s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2018-03-23T17:26:34+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0065s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, function 'rand_int(4)' not found or invalid function name F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1154 行.
+SQL: SELECT `userid`,`username`,`nickname`,`email` FROM `users` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-23T18:10:49+08:00 ] 192.168.1.241 /Sticker_3.2/index.php/Admin/Forger/sendMail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, function 'rand_int(4)' not found or invalid function name F:\phpstudy\WWW\Sticker_3.2\ThinkPHP\Library\Think\Model.class.php 第 1154 行.
+SQL: SELECT `userid`,`username`,`nickname`,`email` FROM `users` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+

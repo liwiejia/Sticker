@@ -1,5 +1,5 @@
 <?php
-return array(
+$config_all =  array(
     //'配置项'=>'配置值'
     // 允许访问的模块列表
     'MODULE_ALLOW_LIST'    =>    array('Admin','Index','Home',),
@@ -9,13 +9,13 @@ return array(
 
 
     'THINK_EMAIL' => array(
-        'SMTP_HOST'   => 'smtp.163.com', //SMTP服务器
+        'SMTP_HOST'   => 'smtp.126.com', //SMTP服务器
         'SMTP_PORT'   => '25', //SMTP服务器端口
-        'SMTP_USER'   => 'sticker_kf@163.com', //SMTP服务器用户名
+        'SMTP_USER'   => 'liweijia0511@126.com', //SMTP服务器用户名
         'SMTP_PASS'   => 'AISHI0405', //SMTP服务器密码
-        'FROM_EMAIL'  => 'sticker_kf@163.com', //发件人EMAIL
+        'FROM_EMAIL'  => 'liweijia0511@126.com', //发件人EMAIL
         'FROM_NAME'   => 'Sticker', //发件人名称
-        'REPLY_EMAIL' => 'sticker_kf@163.com', //回复EMAIL（留空则为发件人EMAIL）
+        'REPLY_EMAIL' => 'liweijia0511@126.com', //回复EMAIL（留空则为发件人EMAIL）
         'REPLY_NAME'  => 'Sticker', //回复名称（留空则为发件人名称）
     ),
 
@@ -23,14 +23,7 @@ return array(
     'DB_PREFIX' => '', // 数据库表前缀
     //'DB_DSN' => 'mysql://root:root@localhost:3306/sticker',//数据库类型://用户名:密码@数据库地址:数据库端口/数据库名
 
-    /* 数据库设置 */
-    'DB_TYPE'               =>  'mysql',     // 数据库类型
-    'DB_HOST'               =>  'localhost', // 服务器地址
-    'DB_NAME'               =>  'sticker',  // 数据库名
-    'DB_USER'               =>  'root',      // 用户名
-    'DB_PWD'                =>  'root',          // 密码
-   // 'DB_PREFIX'             =>  'think_',    // 数据库表前缀
-    'DB_CHARSET'            =>  'utf8',      // 数据库编码默认采用utf8
+
 
     //修改定界符
     'TMPL_L_DELIM'=>'<{',
@@ -47,4 +40,17 @@ return array(
 
 
 );
+
+switch ($_SERVER['SERVER_NAME']) {
+    case 'localhost':
+        $env = 'dev';
+        break;
+
+    default:
+        $env = 'dev';
+        break;
+}
+$config_env = require $env.'_config.php';
+
+return array_merge($config_all, $config_env);
 ?>

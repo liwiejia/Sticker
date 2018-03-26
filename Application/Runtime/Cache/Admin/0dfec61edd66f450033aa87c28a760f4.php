@@ -33,6 +33,43 @@
     </div>
 </div>
 <script type="text/javascript">
+    // 表单提交
+    $(".form").submit(function(e){
+        e.preventDefault();
+        e.stopPropagation();
+        var data = new Object();
+        data.username = $("input[name='username']").val();
+        data.password = $("input[name='password']").val();
+        data.verify = $("input[name='verify']").val();
+        if (data.username == '') {
+            $("input[name='adminname']").focus();
+            lump_error("请输入用户名！");
+            return false;
+        }
+        if (data.password == '') {
+            $("input[name='password']").focus();
+            lump_error("请输入密码！");
+            return false;
+        }
+        if (data.verify == '') {
+            $("input[name='verify']").focus();
+            lump_error("请输入验证码！");
+            return false;
+        }
+        $("#count-msg").hide();
+        var url = $(this).attr('action');
+        $.post(url, data , function(json){
+            if (json.status) {
+                showInfor(json.info);
+                window.location.href = "/Sticker_3.2/index.php/Admin/Index/index";
+            }else {
+                showInfor(json.info);
+                $(".verify_img").trigger('click');
+                return false;
+            }
+        }, 'json');
+        return false;
+    });
     window.onload = function() {
         var config = {
             vx : 4,
