@@ -36,7 +36,7 @@ function send_mail($to, $name, $subject = '', $body = '', $attachment = null){
 
     $mail->IsSMTP(); // 设定使用SMTP服务
 
-    $mail->SMTPDebug = 3; // 关闭SMTP调试功能
+    $mail->SMTPDebug = 0; // 关闭SMTP调试功能
 
 // 1 = errors and messages
 

@@ -27,7 +27,7 @@ class ForgerModel extends Model {
         array('password', '/^([a-zA-Z0-9@*#]{6,22})$/', '密码格式不正确,请重新输入！', 0),
         array('email', 'email', '邮箱格式不正确'), // 内置正则验证邮箱格式
         array('repassword', 'password', '确认密码不正确', 0, 'confirm'), // 验证确认密码是否和密码一致
-       // array('verify', 'verify_check', '验证码错误', 0, 'function'), // 判断验证码是否正确
+        array('verify', 'verify_check', '验证码错误', 0, 'function'), // 判断验证码是否正确
         array('mailVerify', '/^([0-9]{4})$/', '邮箱验证码格式不正确！',  'function'), // 判断验证码是否正确
     );
 

@@ -74,7 +74,7 @@ class ForgerController extends Controller {
                 $where['username'] = $data['username'];
 
                 $result = $user->where($where)->field('userid,username,nickname,email')->find();
-                
+
                 // 验证用户名 对比 邮箱
                 if (!$result && $result['email'] != $data['email']) {
                     $this->error('用户名和邮箱不匹配');

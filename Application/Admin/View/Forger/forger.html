@@ -28,7 +28,7 @@
             </div>
             <div class="mail_box">
                 <input id="mailVerify" type="text" name="mailVerify" class="mailVerify" placeholder="请输入邮箱验证码" foucs-message="请输入您邮箱收到验证码" lost-message="邮箱验证码格式不正确（长度为6位）">
-                <button type="button" id="sendMail" onclick="" >发送验证码</button>
+                <button type="button" id="sendMail" >发送验证码</button>
             </div>
             <div class="input_box">
                 <input id="password" type="password" name="password" class="password" placeholder="新密码" foucs-message="请输入新密码" lost-message="验证码格式不正确（长度为4位）">
@@ -68,13 +68,31 @@
         $.post(url, data , function(json){
             if (json.status) {
                 showInfor(json.info);
+                var timer = 30;
+                var disabled = setTimeout(function () {
+                    $("#sendMail").removeAttr("disabled");
+                    window.clearTimeout(disabled);
+                },timer*1000)
+                var html = setInterval(function(){
+                    timer--;
+                    $("#sendMail").html(timer+"s重发");
+                    if(!timer){
+                        window.clearInterval(html);
+                        $("#sendMail").html("发送验证码");
+                    }
+
+                },1000);
                // window.location.href = "__MODULE__/Index/index";
-            }else {
+            }else{
+                $("#sendMail").html("发送验证码");
+                $("#sendMail").removeAttr("disabled");
                 showInfor(json.info);
                 $(".verify_img").trigger('click');
                 return false;
             }
         }, 'json');
+        $("#sendMail").html("请稍候");
+        $("#sendMail").attr("disabled","disabled");
         return false;
     });
     $(".form").submit(function(e){
