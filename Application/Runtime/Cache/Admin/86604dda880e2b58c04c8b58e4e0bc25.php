@@ -15,7 +15,7 @@
     <div class="forger">
         <div class="logo">
         </div>
-        <form class="form" action="/Sticker_3.2/index.php/Admin/Forger/Forger.html" METHOD="post">
+        <form class="form" action="/Sticker_3.2/index.php/Admin/Forger/Forger" METHOD="post">
             <div class="input_box">
                 <input type="text" name="username" placeholder="账号" id="username" foucs-message="请输入您要找回去密码的用户名" lost-message="用户名格式不正确（请输入需包含字母数字中的一种或两种,长度为4-22位）">
             </div>
@@ -52,23 +52,18 @@
         data.email = $("input[name='email']").val();
         data.verify = $("input[name='verify']").val();
 
-        /*if (data.username == '') {
+        if (data.username == '') {
             $("input[name='adminname']").focus();
-            lump_error("请输入用户名！");
             return false;
         }
-        if (data.password == '') {
-            $("input[name='password']").focus();
-            lump_error("请输入密码！");
+        if (data.email == '') {
+            $("input[name='email']").focus();
             return false;
         }
         if (data.verify == '') {
             $("input[name='verify']").focus();
-            lump_error("请输入验证码！");
             return false;
         }
-        $("#count-msg").hide();*/
-
         var url = "./sendMail";
         $.post(url, data , function(json){
             if (json.status) {
@@ -88,25 +83,32 @@
         var data = new Object();
         data.username = $("input[name='username']").val();
         data.email = $("input[name='email']").val();
+        data.mailVerify = $("input[name='mailVerify']").val();
+        data.password = $("input[name='password']").val();
+        data.repassword = $("input[name='repassword']").val();
         data.verify = $("input[name='verify']").val();
 
         /*if (data.username == '') {
-         $("input[name='adminname']").focus();
-         lump_error("请输入用户名！");
-         return false;
-         }
-         if (data.password == '') {
-         $("input[name='password']").focus();
-         lump_error("请输入密码！");
-         return false;
-         }
-         if (data.verify == '') {
-         $("input[name='verify']").focus();
-         lump_error("请输入验证码！");
-         return false;
-         }
-         $("#count-msg").hide();*/
-
+            $("input[name='username']").focus();
+            return false;
+        }
+        if (data.email == '') {
+            $("input[name='email']").focus();
+            return false;
+        }
+        if (data.mailVerify == '') {
+            $("input[name='mailVerify']").focus();
+            return false;
+        }
+        if (data.password == '') {
+            $("input[name='password']").focus();
+            return false;
+        }
+        if (data.repassword == '') {
+            $("input[name='repassword']").focus();
+            return false;
+        }*/
+        console.log(data);
         var url =  $(this).attr('action');
         $.post(url, data , function(json){
             if (json.status) {
@@ -114,7 +116,7 @@
                 // window.location.href = "/Sticker_3.2/index.php/Admin/Index/index";
             }else {
                 showInfor(json.info);
-                $(".verify_img").trigger('click');
+                //$(".mailVerify")[0].value = "";
                 return false;
             }
         }, 'json');

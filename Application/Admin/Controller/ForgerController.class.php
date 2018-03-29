@@ -17,23 +17,42 @@ class ForgerController extends Controller {
     {
         // 判断提交方式 做不同处理
         if (IS_POST) {
-            // 实例化User对象
-            $user = D('users');
+            $mail_verify = I('mailVerify');
+
+            // 实例化user对象
+            $info = D('forger');
 
             // 自动验证 创建数据集
-            if (!$data = $user->create()) {
-                $this->error($user->getError());
+            if (!$data = $info->create()) {
+                $this->error($info->getError());
             }
-exit();
-            //插入数据库
-            if ($id = $user->add($data)) {
-                /* 直接注册用户为超级管理员,子用户采用邀请注册的模式,
-                   遂设置公司id等于注册用户id,便于管理公司用户*/
-                $user->where("userid = $id")->setField('companyid', $id);
-                $this->success('注册成功', U('Index/index'), 2);
-            } else {
-                $this->error('注册失败');
+            $where = array();
+            $where['username'] = $data['username'];
+            $where['email'] = $data['email'];
+            $verify_table = M('mail_verify');
+            $result = $verify_table->where($where)->find();
+
+
+            if(empty($result)){
+                $this->error("未查询到该账号更改密码的记录，请重新发送邮箱验证码");
+            }else{
+
+                if(auth_code($result['verify']) != $mail_verify){
+
+                    $this->error("邮箱验证码不正确");
+                }
+                if((time() - $result['time']) > 60*30){
+                    $this->error("验证码过期，请重新发送");
+                }
             }
+            $result = $info->where("username='".$data['username']."'")->setField($data);;
+            if($result) {
+                $verify_table->delete($result['id']);
+                $this->success('修改成功！');
+            }else{
+                $this->error('网络错误请稍候重试！');
+            }
+
         } else {
             $this->display();
         }
@@ -55,8 +74,7 @@ exit();
                 $where['username'] = $data['username'];
 
                 $result = $user->where($where)->field('userid,username,nickname,email')->find();
-
-
+                
                 // 验证用户名 对比 邮箱
                 if (!$result && $result['email'] != $data['email']) {
                     $this->error('用户名和邮箱不匹配');
@@ -92,6 +110,7 @@ exit();
 
         }
     public function test(){
+        echo  md5("admin123456");
 
     }
 

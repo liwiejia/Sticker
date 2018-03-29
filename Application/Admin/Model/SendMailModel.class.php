@@ -21,7 +21,7 @@ class SendMailModel extends Model {
     protected $_validate = array(
         array('username', 'require', '用户名不能为空！'), //默认情况下用正则进行验证prqs
         array('email', 'require', '邮箱不能为空！'), // 默认情况下用正则进行验证
-        array('verify', 'verify_check', '验证码错误', 0, 'function'), // 判断验证码是否正确
+        //array('verify', 'verify_check', '验证码错误', 0, 'function'), // 判断验证码是否正确
     );
 
     /**
