@@ -110,7 +110,7 @@ class ForgerController extends Controller {
 
         }
     public function test(){
-        echo  md5("admin123456");
+
 
     }
 

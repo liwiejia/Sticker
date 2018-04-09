@@ -24,6 +24,18 @@ function verify_check($code, $id='')
  * @param $name 验证码标识,多个验证码时可用
  * @return
  */
+function test($type){
+   /* $verify =  \Vendor\ThinkSDK\ThinkOauth::getInstance($type);
+    return $verify->getInstance($type);*/
+
+   // vendor('ThinkSDK.ThinkOauth.class'); //从PHPMailer目录导class.phpmailer.php类文件
+    //$sns = new \Vendor\ThinkSDK\ThinkOauth(); //PHPMailer对象 \Vendor\PHPMailer\
+   // $sns  = Vendor\ThinkSDK\ThinkOauth::getInstance($type);
+    //echo $sns;
+    //$mail = new Vendor\ThinkSDK\ThinkOauth(); //PHPMailer对象 \Vendor\PHPMailer\
+    import('Vendor.ThinkSDK.ThinkOauth');
+    //$mail =new ThinkOauth();
+}
 function send_mail($to, $name, $subject = '', $body = '', $attachment = null){
 
     $config = C('THINK_EMAIL');
