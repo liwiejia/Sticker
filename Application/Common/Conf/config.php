@@ -4,8 +4,10 @@ $config_all =  array(
 
     //'配置项'=>'配置值'
 
+    //url访问模式为rewrite模式
+    'URL_MODEL'=>'2',
 
-    'APP_STATUS' => 'test', //应用调试模式状态
+
 
 
     // 允许访问的模块列表

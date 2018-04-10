@@ -53,12 +53,6 @@ class LoginController extends Controller {
         }
     }
 
-    public  function test(){
-
-
-    }
-
-
     /**
      * 用户注销
      */
