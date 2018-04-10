@@ -40,20 +40,12 @@
       <file leaf-file-name="ThinkOauth.class.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/ThinkOauth.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="112" column="45" lean-forward="true" selection-start-line="112" selection-start-column="45" selection-end-line="112" selection-end-column="45" />
-              <folding>
-                <element signature="e#6#80#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QqSDK.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/sdk/QqSDK.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-650">
-              <caret line="51" column="24" lean-forward="false" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
+            <state relative-caret-position="498">
+              <caret line="98" column="14" lean-forward="false" selection-start-line="98" selection-start-column="14" selection-end-line="98" selection-end-column="14" />
+              <caret line="129" column="14" lean-forward="false" selection-start-line="129" selection-start-column="14" selection-end-line="129" selection-end-column="14" />
+              <caret line="150" column="18" lean-forward="false" selection-start-line="150" selection-start-column="18" selection-end-line="150" selection-end-column="18" />
+              <caret line="222" column="18" lean-forward="false" selection-start-line="222" selection-start-column="18" selection-end-line="222" selection-end-column="18" />
+              <caret line="231" column="21" lean-forward="false" selection-start-line="231" selection-start-column="21" selection-end-line="231" selection-end-column="21" />
               <folding>
                 <element signature="e#6#80#0#PHP" expanded="true" />
               </folding>
@@ -64,30 +56,8 @@
       <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Application/Common/Conf/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="14" column="20" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sdk_config.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Common/Conf/sdk_config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="28" column="31" lean-forward="false" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
-              <folding>
-                <element signature="e#6#80#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RenrenSDK.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/sdk/RenrenSDK.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            <state relative-caret-position="172">
+              <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -105,9 +75,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>top.location</find>
-      <find>getLoginUrl</find>
-      <find>mail</find>
       <find>__getAccessToken</find>
       <find>ott.on.aol.com</find>
       <find>.on.aol.com/ott/netrange_tv/watch/</find>
@@ -132,9 +99,12 @@
       <find>getRequestCodeURL</find>
       <find>TypeEvent</find>
       <find>config</find>
+      <find>D</find>
       <find>halt</find>
       <find>'APP_STATUS'</find>
-      <find>D</find>
+      <find>Exception</find>
+      <find>throw new</find>
+      <find>throw new Exception</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -167,22 +137,6 @@
         <option value="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Verify.class.php" />
         <option value="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Verify1.class.php" />
         <option value="$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/Verify.class.php" />
-        <option value="$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/sdk/AlipaySDK.class.php" />
-        <option value="$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/sdk/BaiduSDK.class.php" />
-        <option value="$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/sdk/DiandianSDK.class.php" />
-        <option value="$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/sdk/DoubanSDK.class.php" />
-        <option value="$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/sdk/GithubSDK.class.php" />
-        <option value="$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/sdk/GoogleSDK.class.php" />
-        <option value="$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/sdk/KaixinSDK.class.php" />
-        <option value="$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/sdk/MsnSDK.class.php" />
-        <option value="$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/sdk/RenrenSDK.class.php" />
-        <option value="$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/sdk/SinaSDK.class.php" />
-        <option value="$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/sdk/SohuSDK.class.php" />
-        <option value="$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/sdk/T163SDK.class.php" />
-        <option value="$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/sdk/TaobaoSDK.class.php" />
-        <option value="$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/sdk/TencentSDK.class.php" />
-        <option value="$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/sdk/WeixinSDK.class.php" />
-        <option value="$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/sdk/X360SDK.class.php" />
         <option value="$PROJECT_DIR$/Application/Common/Conf/config.php" />
         <option value="$PROJECT_DIR$/../6486test/setUrl1.html" />
         <option value="$PROJECT_DIR$/../6486test/ard.html" />
@@ -193,6 +147,22 @@
         <option value="$PROJECT_DIR$/Application/Admin/Controller/TestController.class.php" />
         <option value="$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/sdk/QqSDK.class.php" />
         <option value="$PROJECT_DIR$/Application/Common/Conf/sdk_config.php" />
+        <option value="$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/sdk/RenrenSDK.class.php" />
+        <option value="$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/sdk/TencentSDK.class.php" />
+        <option value="$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/sdk/DiandianSDK.class.php" />
+        <option value="$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/sdk/BaiduSDK.class.php" />
+        <option value="$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/sdk/AlipaySDK.class.php" />
+        <option value="$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/sdk/X360SDK.class.php" />
+        <option value="$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/sdk/WeixinSDK.class.php" />
+        <option value="$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/sdk/TaobaoSDK.class.php" />
+        <option value="$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/sdk/T163SDK.class.php" />
+        <option value="$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/sdk/SohuSDK.class.php" />
+        <option value="$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/sdk/SinaSDK.class.php" />
+        <option value="$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/sdk/MsnSDK.class.php" />
+        <option value="$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/sdk/KaixinSDK.class.php" />
+        <option value="$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/sdk/GoogleSDK.class.php" />
+        <option value="$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/sdk/GithubSDK.class.php" />
+        <option value="$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/sdk/DoubanSDK.class.php" />
         <option value="$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/ThinkOauth.class.php" />
       </list>
     </option>
@@ -755,12 +725,12 @@
       <workItem from="1522288807862" duration="40886000" />
       <workItem from="1522668909089" duration="9134000" />
       <workItem from="1522812263615" duration="12863000" />
-      <workItem from="1523172139416" duration="34771000" />
+      <workItem from="1523172139416" duration="36785000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="292374000" />
+    <option name="totallyTimeSpent" value="294388000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -985,134 +955,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/sdk/AlipaySDK.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="13" column="31" lean-forward="false" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/sdk/BaiduSDK.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="13" column="31" lean-forward="false" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/sdk/DiandianSDK.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="12" column="31" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/sdk/DoubanSDK.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="12" column="31" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/sdk/GithubSDK.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="12" column="31" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/sdk/GoogleSDK.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="12" column="31" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/sdk/KaixinSDK.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="12" column="31" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/sdk/MsnSDK.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="12" column="31" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/sdk/X360SDK.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="12" column="31" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/sdk/WeixinSDK.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="12" column="31" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/sdk/TencentSDK.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="12" column="31" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/sdk/TaobaoSDK.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="12" column="31" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/sdk/T163SDK.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="12" column="31" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/sdk/SohuSDK.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="12" column="31" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/sdk/SinaSDK.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="12" column="31" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/sdk/RenrenSDK.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../6486test/setUrl1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -1189,6 +1031,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/sdk/RenrenSDK.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Application/Common/Conf/sdk_config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -1199,21 +1049,141 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Common/Conf/config.php">
+    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/sdk/X360SDK.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="14" column="20" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="20" />
+        <state relative-caret-position="50">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/sdk/AlipaySDK.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/sdk/WeixinSDK.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/sdk/TaobaoSDK.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/sdk/T163SDK.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/sdk/SohuSDK.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/sdk/SinaSDK.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/sdk/BaiduSDK.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/sdk/DiandianSDK.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/sdk/MsnSDK.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/sdk/KaixinSDK.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/sdk/GoogleSDK.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/sdk/GithubSDK.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/sdk/DoubanSDK.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/sdk/TencentSDK.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/sdk/QqSDK.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-650">
-          <caret line="51" column="24" lean-forward="false" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
+        <state relative-caret-position="150">
+          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="31" />
           <folding>
             <element signature="e#6#80#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Common/Conf/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1227,8 +1197,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Vendor/ThinkSDK/ThinkOauth.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="112" column="45" lean-forward="true" selection-start-line="112" selection-start-column="45" selection-end-line="112" selection-end-column="45" />
+        <state relative-caret-position="498">
+          <caret line="98" column="14" lean-forward="false" selection-start-line="98" selection-start-column="14" selection-end-line="98" selection-end-column="14" />
+          <caret line="129" column="14" lean-forward="false" selection-start-line="129" selection-start-column="14" selection-end-line="129" selection-end-column="14" />
+          <caret line="150" column="18" lean-forward="false" selection-start-line="150" selection-start-column="18" selection-end-line="150" selection-end-column="18" />
+          <caret line="222" column="18" lean-forward="false" selection-start-line="222" selection-start-column="18" selection-end-line="222" selection-end-column="18" />
+          <caret line="231" column="21" lean-forward="false" selection-start-line="231" selection-start-column="21" selection-end-line="231" selection-end-column="21" />
           <folding>
             <element signature="e#6#80#0#PHP" expanded="true" />
           </folding>
