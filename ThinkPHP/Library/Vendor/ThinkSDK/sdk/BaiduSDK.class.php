@@ -9,7 +9,7 @@
 // | WeixinSDK.php  By Taoge 2017/9/28 11:30
 // +----------------------------------------------------------------------
 
-namespace Vendor\ThinkSDK\sdk;
+
 
 use Vendor\ThinkSDK\ThinkOauth;
 
